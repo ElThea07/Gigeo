@@ -1,0 +1,28 @@
+@mixin img-object-fit($objectFit-height:200px,$object-fit:cover,$objectFit-position:0)
+{
+    width: 100%;
+    height: $objectFit-height;
+    object-fit: $object-fit;
+    object-position: $objectFit-position;
+}
+//break point
+@mixin mobile-view {
+    @media (min-width:#{$min-mobile}){
+        @content;
+    }   
+}
+@mixin tablet-view {
+    @media (min-width:#{$min-tablet}){
+        @content;
+    }   
+}
+@mixin laptop-view {
+    @media (min-width:#{$min-laptop}){
+        @content;
+    }   
+}
+@mixin laptopXL-view {
+    @media (min-width:#{$min-laptopXL}){
+        @content;
+    }   
+}

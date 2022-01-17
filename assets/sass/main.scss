@@ -1,0 +1,19 @@
+//abstracts
+@import 'abstracts/mixin';
+@import 'abstracts/variables';
+//base
+@import 'base/reset';;
+//components
+@import 'components/buttons';
+@import 'components/header';
+@import 'components/nav';
+//pages
+@import 'pages/home';
+
+
+//BOOTSTRAP 
+$navbar-light-color:#000;
+$navbar-light-color-toggler:transparent;
+$card-border-width:none;
+
+@import './vendors/node_modules/bootstrap/scss/bootstrap.scss';

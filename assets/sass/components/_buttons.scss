@@ -1,0 +1,20 @@
+.profile__button{
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    &-1{
+        background:#92dce5;
+        color: #fff;
+        padding: 7px 20px;
+        font-size: 25px;
+        border: none;
+    }
+    &-2{
+        background:#ef6461;
+        color: #fff;
+        padding: 7px 20px;
+        font-size: 25px;
+        border: none;
+    }
+}
